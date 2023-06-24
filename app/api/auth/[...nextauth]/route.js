@@ -5,13 +5,13 @@ import GoogleProvider from 'next-auth/providers/google';
 const handler = NextAuth({
     providers : [
         GithubProvider({
-            clientId : "f31eb7165d40f5b8d4e0",
-            clientSecret : "8dd1a04264e78837049fc7fc96775f1a610c1013"
+            clientId : "YOUR ID",
+            clientSecret : "YOUR SECRET_KEY"
         }),
 
         GoogleProvider({
-            clientId : "787178406737-joslb7rn42tneg3f4uj92kc1b5qdknim.apps.googleusercontent.com",
-            clientSecret : "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"
+            clientId : "YOUR ID",
+            clientSecret : "YOUR SECRET_KEY"
         })
     ]
     
